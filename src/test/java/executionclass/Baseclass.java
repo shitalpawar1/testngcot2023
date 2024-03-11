@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import pageclass.LeavePage;
 import pageclass.Loginpage;
 import pageclass.ProfilePage;
 
@@ -15,6 +16,8 @@ public class Baseclass {
 	static WebDriver driver;
 	public Loginpage login;
 	public ProfilePage profile;
+	public LeavePage leave;
+	
 	@BeforeSuite
   public void setup() {
 	  
@@ -28,6 +31,7 @@ public class Baseclass {
 	public void creatobj() {
 		login=new Loginpage(driver);
 		profile=new ProfilePage(driver);
+		leave=new LeavePage(driver);
 	}
 
 }
