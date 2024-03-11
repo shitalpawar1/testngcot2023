@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[success login case]]>
+    </line>
+    <line>
+      <![CDATA[success logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-23T23:07:42 IST" name="Suite" finished-at="2024-01-23T23:07:55 IST" duration-ms="12663">
+    <groups>
+    </groups>
+    <test started-at="2024-01-23T23:07:42 IST" name="Test" finished-at="2024-01-23T23:07:55 IST" duration-ms="12663">
+      <class name="testclass.Logintest$LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.Logintest$LoginTest@74235045]" started-at="2024-01-23T23:07:34 IST" name="setup" finished-at="2024-01-23T23:07:42 IST" duration-ms="7602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="creatobj()[pri:0, instance:testclass.Logintest$LoginTest@74235045]" started-at="2024-01-23T23:07:42 IST" name="creatobj" finished-at="2024-01-23T23:07:42 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatobj -->
+        <test-method signature="loginpositiveTestcase()[pri:0, instance:testclass.Logintest$LoginTest@74235045]" started-at="2024-01-23T23:07:42 IST" name="loginpositiveTestcase" finished-at="2024-01-23T23:07:49 IST" duration-ms="6720" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[success login case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginpositiveTestcase -->
+        <test-method signature="logoutapp()[pri:0, instance:testclass.Logintest$LoginTest@74235045]" started-at="2024-01-23T23:07:49 IST" name="logoutapp" finished-at="2024-01-23T23:07:55 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[success logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+      </class> <!-- testclass.Logintest$LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
